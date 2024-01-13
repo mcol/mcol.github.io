@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300);
+
+html {
+  margin-right: -50px; /* hide the vertical scrollbar added by overflow-y */
+  overflow-x: hidden; /* hide the horizontal scrollbar */
+  overflow-y: scroll; /* don't let the page move when the scrollbar appears */
+}
+
+body {
+  background-color: #fefefe;
+  color: #333;
+  font-family: "Source Sans Pro", verdana, helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #369;
+}
+
+a:hover {
+  color: #d90;
+}
+
+em {
+  color: #369;
+  font-style: normal;
+}
+
+p {
+  margin-top: 1ex;
+}
+
+h3 {
+  margin: 0;
+}
+
+.site {
+  margin: 1em auto 2em;
+  width: 40em;
+}
+
+#content {
+  clear: left; /* undo the float in navigation */
+}
+
+.meta {
+  border-top: 2px solid #369;
+  font-size: small;
+  margin-top: 2em;
+  padding-top: 0.5em;
+}
+
+/**
+ *  header
+ */
+
+.header {
+  border-top: 2px solid #369;
+  color: #369;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+.header h1 {
+  color: #369;
+  letter-spacing: 5pt;
+  margin: 0;
+}
+
+.tag {
+  font-size: 105%;
+  margin: 0;
+}
+
+/**
+ *  navigation
+ */
+
+#navigation {
+  padding-bottom: 1em;
+}
+
+#navigation ul {
+  list-style: none;
+  padding-left: 0ex;
+}
+
+#navigation li {
+  float: left;
+  width: 8em;
+}
+
+#navigation a {
+  border-bottom: 2px solid #369;
+  display: block;
+  margin-right: 1em;
+  padding-left: 2px;
+}
+
+#navigation a.active {
+  border-bottom: 4px solid #d90;
+  color: #b70;
+}
+
+#navigation a:hover,
+#navigation a.active:hover {
+  border-bottom: 4px solid #d90;
+  color: #d90;
+}
+
+/**
+ *  entry
+ */
+
+.entry {
+  margin-bottom: 1em;
+}
+
+.entry em {
+  display: block;
+}
+
+.date {
+  color: #666;
+  font-size: 85%;
+}
+
+.author {
+  color: #333;
+}
+
+.title {
+  color: green;
+}
+
+.comment {
+  color: #666;
+  font-style: italic;
+}
