@@ -1,0 +1,79 @@
+div#table {
+  font-family: verdana, lucida, helvetica, arial, sans-serif;
+  font-size: 0.85em;
+  margin: 1em 0;
+  margin-bottom: 8ex;
+  text-align: center;
+}
+
+div#table div {
+  font-size: small;
+  padding: 1ex;
+}
+
+.tabtitle {
+  text-transform: uppercase;
+}
+
+.outing {
+  clear: both;
+}
+
+#table div.num {
+  background: #38d;
+  border: 1px solid #36c;
+  border-right: 0;
+  color: white;
+  float: left;
+  font-size: smaller;
+  margin-right: 0;
+  padding: 0;
+  width: 5%;
+}
+
+#table div.date {
+  background: #38d;
+  border: 1px solid #36c;
+  color: white;
+  float: left;
+  font-size: smaller;
+  padding: 0;
+  width: 20%;
+}
+
+.pub {
+  background-color: #eeeeff; /* light blue */
+  border: 1px solid #d0d0f4; /* blue */
+  clear: left;
+  float: left;
+  width: 27%;
+}
+
+.pub + .pub {
+  background-color: #f2f2f2;  /* light grey */
+  border: 1px dotted #c2c2c2; /* grey */
+  border-left: 0;
+  clear: none;
+  color: gray;
+}
+
+.one-pub {
+  background-color: #eeeeff; /* light blue */
+  border: 1px solid #d0d0f4; /* blue */
+  clear: left;
+  float: left;
+  width: 56%;
+}
+
+.one-pub + .pub {
+  display: none;
+}
+
+.theme {
+  background-color: #ffffaa;  /* light yellow */
+  border: 1px dotted #cccc22; /* yellow */
+  border-left: 0;
+  color: gray;
+  float: left;
+  width: 33%;
+}
